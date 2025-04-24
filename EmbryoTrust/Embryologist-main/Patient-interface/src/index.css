@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  background: white;
+}
+
+.bg-color{
+  background: linear-gradient(180deg, rgb(56 150 105) 0%, rgb(81 161 123) 100%);
+
+}
