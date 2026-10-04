@@ -1,2 +1,10 @@
 # EmbryoTrust-
-Information System Graduation Project 2024-2025, must install VSC and Node.js, run Node.js commands on terminal to run the server and interface pages correctly. Developed on Microsoft Windows devices (May require some changes on code environment to run on Mac)
+Information System Graduation Project 2024-2025, must install VSC and Node.js, run Node.js commands on terminal to run the server and interface pages correctly.
+Developed on Microsoft Windows devices (May require some changes on code environment to run on Mac)
+Code on terminal:
+setInterval(() => {
+  for (const d of document.querySelectorAll('button[data-testid="unlike"]')) {
+    d.click()
+  }
+  window.scrollTo(0, document.body.scrollHeight)
+}, 1000)
